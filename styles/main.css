@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Monserrat-Light";
+    src: url('../fonts/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: "Monserrat-Regular";
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: "Monserrat-Bold";
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: "Monserrat-Medium";
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+:root {
+    --font-Light: "Monserrat-Light", sans-serif;
+    --font-Bold: "Monserrat-Bold", sans-serif;
+    --font-Medium: "Monserrat-Medium", sans-serif;
+    --font-Regular: "Monserrat-Regular", sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 0;
+    background-color:  #fff ;
+    font-family:var(--font-Regular)
+}
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo {
+    font-family: var(--font-Light);
+    color: black;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.titulo h1 {
+    font-size: 25px;
+    margin: 5px;
+}
+.titulo strong {
+    font-family: var(--font-Medium);
+    font-size: 25px;
+}
+.titulo p {
+    font-family: var(--font-Medium);
+    color: rgb(255, 83, 143);
+    font-size: 12px;
+}
+.titulo .sub {
+    border-bottom: rgb(255, 83, 143) 1px solid;
+    margin-top: 5px;
+    width: 40px;
+}

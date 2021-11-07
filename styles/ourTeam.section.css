@@ -1,0 +1,45 @@
+.our-team {
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5px 25px;
+}
+.our-team figure:hover{
+    filter: grayscale(0%);
+}
+.our-team article:hover {
+    zoom: 103%;
+    box-shadow:rgba(175, 175, 175, 0.466) 2px 2px 10px 5px;
+}
+.our-team figure {
+    margin: 0;
+    padding: 0;
+    max-width: 245px;
+    filter: grayscale(100%);
+}
+.our-team figure img {
+    width: 100%;
+}
+.our-team h1 {
+    font-family: var(--font-Medium);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.our-team p {
+    color: rgb(75, 75, 75);
+    font-family: var(--font-Medium);
+    font-size: 9px;
+    border-bottom: rgba(114, 114, 114, 0.631) 1px solid;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.redes span{
+    color: rgb(141, 139, 139);
+    font-size: 13px;
+    margin: 10px 5px
+}
+.redes span:hover{
+    color: rgb(248, 45, 100);
+}

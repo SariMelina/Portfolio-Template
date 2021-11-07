@@ -1,0 +1,66 @@
+section .portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 10px 20px;    
+    position: relative;
+}
+.portfolio .chica {
+    margin: 0;
+    padding: 0;
+    max-width: 340px;
+    max-height: 340px;
+}
+.portfolio .grande {
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+    max-height: 340px;
+}
+.portfolio figure img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio figure {
+    position: relative;
+}
+.portfolio figure:hover div {
+    visibility: visible;
+}
+.portfolio figure div { 
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 98%;
+    height: 96%;
+    position: absolute;
+    top: calc(2%);
+    left: calc(1%);       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-Bold);
+}
+.portfolio .description {
+    font-family: var(--font-Regular);
+    color: rgb(116, 115, 116);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.portfolio .informa  span{
+    background-color: rgb(248, 45, 100);
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio .informa  span:hover *{    
+    color: rgb(17, 0, 5); 
+}
+.portfolio .informa  span *{    
+    color: white;    
+}
